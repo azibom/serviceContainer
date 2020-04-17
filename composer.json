@@ -1,0 +1,19 @@
+{
+    "name": "php/container",
+    "description": "That is a simple container service",
+    "type": "library",
+    "authors": [
+        {
+            "name": "azibom",
+            "email": "mrsh13610@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Php\\Container\\": "src/"
+        }
+    }
+}
