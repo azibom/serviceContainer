@@ -8,6 +8,4 @@ use Exception;
 /**
  * Class not found
  */
-class NotFoundException extends Exception implements NotFoundExceptionInterface
-{
-}
+class NotFoundException extends Exception implements NotFoundExceptionInterface {}
