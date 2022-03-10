@@ -48,6 +48,9 @@ class Container implements ContainerInterface
                 if (is_callable($name)) {
                     return $name();
                 }
+                if( is_object($name)){
+                    return $name;
+                }
             }
             return (new ReflectionClass($name));
         } catch (ReflectionException $e) {
